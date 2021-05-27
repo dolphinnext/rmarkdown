@@ -18,3 +18,4 @@ dependencies:
   - r-rmarkdown=2.8
   - r-reshape2=1.4.4
   - r-tibble=3.1.2 
+  - bioconductor-genomeinfodb=1.26.4
