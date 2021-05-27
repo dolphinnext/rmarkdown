@@ -34,7 +34,7 @@ RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
 COPY environment.yml /
-RUN conda update -n base -c defaults conda
+# RUN conda update -n base -c defaults conda
 RUN conda env create -f /environment.yml && conda clean -a
 RUN mkdir -p /project /nl /mnt /share
 ENV PATH /opt/conda/envs/dolphinnext-rmarkdown-1.0/bin:$PATH
