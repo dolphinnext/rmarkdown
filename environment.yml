@@ -16,3 +16,5 @@ dependencies:
   - r-stringr=1.4.0
   - r-knitr=1.33
   - r-rmarkdown=2.8
+  - r-reshape2=1.4.3
+  - r-tibble=3.1.2
