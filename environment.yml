@@ -19,3 +19,5 @@ dependencies:
   - r-reshape2=1.4.4
   - r-tibble=3.1.2 
   - bioconductor-genomeinfodb=1.26.4
+  - r-kableextra
+  - plotly=5.6.0
