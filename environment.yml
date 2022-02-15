@@ -21,3 +21,4 @@ dependencies:
   - bioconductor-genomeinfodb=1.26.4
   - r-kableextra
   - plotly=5.6.0
+  - r-plotly=4.10.0
